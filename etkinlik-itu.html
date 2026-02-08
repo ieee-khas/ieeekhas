@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Elektrikli Araçlar Zirvesi | IEEE KHAS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>IEEE Kadir Has Üniversitesi Öğrenci Kolu</title>
+  <link rel="icon" type="image/png" href="ieee.png" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <img src="navb.png" alt="KHAS IEEE">
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="anasayfa.html">Ana Sayfa</a></li>
+      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+      <li><a href="yonetim-kurulu.html">Yönetim Kurulu</a></li>
+       <li><a href="takvim.html">Takvim</a></li>
+      <li><a href="arsiv.html">Arşiv</a></li>
+    </ul>
+
+    <a href="#" class="nav-cta">Üye Ol</a>
+    <button class="nav-toggle" aria-label="Menüyü Aç">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+  </div>
+</nav>
+
+<!-- CONTENT -->
+<section class="event-detail">
+  <div class="event-detail-container">
+
+    <h1>Elektrikli Araçlar Zirvesi</h1>
+
+    <p>
+      İstanbul Teknik Üniversitesi Elektrik Mühendisliği Kulübü tarafından düzenlenen Elektrikli Araçlar Zirvesi’ne katılım sağladık.
+      Bu etkinlikte elektrikli araç teknolojileri, batarya sistemleri ve geleceğin ulaşım çözümleri hakkında
+      birçok değerli sunum dinleme fırsatı bulduk.
+    </p>
+
+    <p>
+      Kulübümüz adına hem teknik anlamda hem de farklı üniversitelerle etkileşim açısından oldukça verimli
+      bir etkinlik oldu.
+    </p>
+
+    <a href="arsiv.html" class="back-link">← Etkinliklere geri dön</a>
+
+  </div>
+</section>
+<!-- FOOTER -->
+<footer class="ieee-footer">
+  <div class="footer-container">
+
+    <div class="footer-col logo-col">
+      <img src="ftr.png" height="120" alt="IEEE Kadir Has Üniversitesi">
+    </div>
+
+    <div class="footer-col">
+      <h4>BAĞLANTILAR</h4>
+      <a href="anasayfa.html">Ana Sayfa</a>
+      <a href="hakkimizda.html">Hakkımızda</a>
+     <a href="yonetim-kurulu.html">Yönetim Kurulu</a>
+     <a href="takvim.html">Takvim</a>
+      <a href="arsiv.html">Arşiv</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>İLETİŞİM</h4>
+      <p>📧 ieee@khas.edu.tr</p>
+      <p>📍Cibali Mah. Kadir Has Cad. 34083
+Fatih-İstanbul</p>
+    </div>
+<div class="footer-col">
+  <h4>SOSYAL</h4>
+    <div class="footer-socials">
+    <a href="https://www.instagram.com/ieeekhas/" target="_blank" class="social-link">
+      <img src="instagram.png" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com/company/ieeekhas/" target="_blank" class="social-link">
+      <img src="linkedin.png" alt="LinkedIn">
+    </a>
+    <a href="https://www.youtube.com/channel/UCfJag9O6M5VHuP1RBbI7eIg" target="_blank" class="social-link">
+      <img src="youtube.png" alt="YouTube">
+    </a>
+  </div>
+  </div>
+
+
+  </div>
+
+  <div class="footer-bottom">
+    © IEEE Kadir Has Üniversitesi Öğrenci Kolu 2026
+  </div>
+</footer>
+<script>
+  const navToggle = document.querySelector('.nav-toggle');
+  const navbar = document.querySelector('.navbar');
+
+  navToggle.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
+</body>
+</html>
