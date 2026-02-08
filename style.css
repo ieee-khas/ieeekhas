@@ -1794,7 +1794,109 @@ body {
     text-align: center;
   }
 }
+/* ===============================
+   GEÇMİŞ ETKİNLİKLER – ARŞİV LİSTESİ
+   =============================== */
 
+.events-page {
+  padding: 40px 20px;
+}
+
+/* Sayfa başlığı */
+.events-page-container h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #0a2540;
+}
+
+/* Liste kutusu */
+.archive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #dcdcdc;
+  background-color: #ffffff;
+}
+
+/* Satır */
+.archive-list li {
+  border-top: 1px solid #e5e5e5;
+}
+
+.archive-list li:first-child {
+  border-top: none;
+}
+
+/* 👇 ASIL KRİTİK KISIM: KUTUCUĞUN TAMAMI */
+.archive-item {
+  display: block;              /* tüm satır link */
+  padding: 14px 18px;
+  text-decoration: none;
+  color: #222;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover efekti */
+.archive-item:hover {
+  background-color: #f4f8fb;
+  cursor: pointer;
+}
+
+/* Etkinlik başlığı */
+.archive-item .title {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+/* Tarih / tür */
+.archive-item .date {
+  font-size: 0.85rem;
+  color: #666;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+/* Mobil uyum */
+@media (max-width: 600px) {
+  .events-page-container h1 {
+    font-size: 1.3rem;
+  }
+
+  .archive-item {
+    padding: 12px 14px;
+  }
+}
+.events-page-container h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 35px;
+  text-align: center;
+  color: #0a2540;
+}
+
+/* Geçmiş Etkinliklerimiz başlığı */
+.events-page-container h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 35px;
+  text-align: center;
+  color: #00629b; /* IEEE mavisi */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.events-page {
+  flex: 1;
+}
 
 
 
