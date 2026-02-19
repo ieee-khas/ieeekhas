@@ -1924,6 +1924,18 @@ body {
     height: 90px;
   }
 }
+@media (max-width: 600px) {
+  .modal-content img {
+    max-width: 85%;   /* Daha küçük */
+    max-height: 60vh; /* Daha kısa */
+  }
+
+  .modal-content {
+    padding: 10px;
+  }
+}
+
+
 
 
 
