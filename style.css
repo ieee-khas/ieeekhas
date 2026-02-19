@@ -1926,7 +1926,7 @@ body {
 }
 @media (max-width: 600px) {
   .modal-content img {
-    max-width: 85%;   /* Daha küçük */
+    max-width: 95%;   /* Daha küçük */
     max-height: 60vh; /* Daha kısa */
   }
 
@@ -1934,6 +1934,7 @@ body {
     padding: 10px;
   }
 }
+
 
 
 
