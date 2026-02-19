@@ -1883,7 +1883,7 @@ body {
 .close-btn {
   position: absolute;
   top: -15px;
-  right: -25px;   /* Biraz sola kaydı */
+  right: -2px;   /* Biraz sola kaydı */
   font-size: 32px; /* Büyüdü */
   font-weight: bold;
   color: black;   /* Siyah oldu */
@@ -1924,6 +1924,7 @@ body {
     height: 90px;
   }
 }
+
 
 
 
