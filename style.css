@@ -1886,3 +1886,26 @@ body {
   border-radius: 8px;
   transition: 0.3s;
 }
+
+
+
+.event-section .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 120px); /* Her kutu 120px */
+  justify-content: center; /* Ortalar */
+  gap: 8px;
+}
+
+.event-section .gallery img {
+  width: 120px;
+  height: 120px;          /* Sabit boyut */
+  object-fit: cover;      /* Taşanı kırpar */
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.event-section .gallery img:hover {
+  transform: scale(1.05);
+}
+
