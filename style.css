@@ -1854,3 +1854,35 @@ body {
 }
 
 
+
+.event-section .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.event-section .gallery img {
+  width: 100%;
+  height: 120px;        /* Küçük görünmesi için sabit yükseklik */
+  object-fit: cover;    /* Taşanı kırpar, oranı bozmaz */
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+
+
+.event-section .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.event-section .gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* Hepsi kare olur */
+  object-fit: cover;     /* Taşanı kırpar */
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
