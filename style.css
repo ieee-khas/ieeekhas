@@ -1884,7 +1884,7 @@ body {
   position: absolute;
   top: -15px;
   right: -2px;   /* Biraz sola kaydı */
-  font-size: 32px; /* Büyüdü */
+  font-size: 42px; /* Büyüdü */
   font-weight: bold;
   color: white;  
   cursor: pointer;
@@ -1934,6 +1934,7 @@ body {
     padding: 10px;
   }
 }
+
 
 
 
