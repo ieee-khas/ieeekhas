@@ -71,9 +71,13 @@ Yoğun katılım ve ilgi için başta değerli hocalarımız olmak üzere tüm k
 </section>
 
 <!-- Modal -->
-<div id="imageModal" class="modal" onclick="closeModal()">
-  <img id="modalImg">
+<div id="imageModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">×</span>
+    <img id="modalImg">
+  </div>
 </div>
+
 
 
     <a href="arsiv.html" class="back-link">← Etkinliklere geri dön</a>
@@ -133,7 +137,7 @@ Fatih-İstanbul</p>
     navbar.classList.toggle('active');
   });
 </script>
-  <script>
+<script>
 function openModal(img) {
   const modal = document.getElementById("imageModal");
   const modalImg = document.getElementById("modalImg");
@@ -145,6 +149,13 @@ function openModal(img) {
 function closeModal() {
   document.getElementById("imageModal").style.display = "none";
 }
+
+/* Boş alana tıklayınca kapansın */
+document.getElementById("imageModal").addEventListener("click", function(e) {
+  if (e.target === this) {
+    closeModal();
+  }
+});
 </script>
 
 </body>
