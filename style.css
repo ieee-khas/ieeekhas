@@ -1886,7 +1886,7 @@ body {
   right: -2px;   /* Biraz sola kaydı */
   font-size: 32px; /* Büyüdü */
   font-weight: bold;
-  color: black;   /* Siyah oldu */
+  color: white;  
   cursor: pointer;
 }
 
@@ -1924,6 +1924,7 @@ body {
     height: 90px;
   }
 }
+
 
 
 
