@@ -1890,4 +1890,12 @@ body {
   cursor: pointer;
 }
 
+.back-link {
+  display: block;
+  text-align: center;
+  margin: 15px 0 40px 0; 
+}
+
+
+
 
