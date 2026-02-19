@@ -39,17 +39,41 @@
 <section class="event-detail">
   <div class="event-detail-container">
 
-    <h1>Yönetim Kurulu Toplantısı</h1>
+    <h1>Tanışma Toplantısı</h1>
 
-    <img src="toplanti.jpeg" alt="toplanti.jpeg">
+    <img src="1.jpeg" alt="toplanti.jpeg">
 
     <p>
-IEEE KHAS Öğrenci Kolu Danışman Hocamız Doç. Dr. Tunçer Baykaş ile öğrenci kolumuzun mevcut durumu ve geleceğine yönelik hedefleri hakkında verimli bir görüşme gerçekleştirdik.
+IEEE Kadir Has Üniversitesi Öğrenci Kolu olarak dönemimizin ilk tanışma toplantısını başarıyla gerçekleştirdik.
 </p>
 
 <p>
-Yapılan değerlendirmeler doğrultusunda, önümüzdeki dönemde atılacak adımlar ve çalışmalar üzerine fikir alışverişinde bulunduk.
+Toplantımızda kulübümüzün vizyonu, hedefleri ve dönem boyunca planladığımız etkinlikler hakkında bilgilendirme yapıldı. Yeni üyelerimizle bir araya gelerek hem organizasyon yapımızı tanıttık hem de birbirimizi daha yakından tanıma fırsatı bulduk.
 </p>
+
+<p>
+Yoğun katılım ve ilgi için başta değerli hocalarımız olmak üzere tüm katılımcılarımıza teşekkür ederiz. Birlikte verimli ve başarılı bir dönem geçirmeyi diliyoruz.
+</p>
+      </div>
+  
+    <div class="gallery">
+    <img src="images/1.jpg" onclick="openModal(this)">
+    <img src="images/2.jpg" onclick="openModal(this)">
+    <img src="images/3.jpg" onclick="openModal(this)">
+    <img src="images/4.jpg" onclick="openModal(this)">
+    <img src="images/5.jpg" onclick="openModal(this)">
+    <img src="images/6.jpg" onclick="openModal(this)">
+    <img src="images/7.jpg" onclick="openModal(this)">
+    <img src="images/8.jpg" onclick="openModal(this)">
+    <img src="images/9.jpg" onclick="openModal(this)">
+  </div>
+
+</section>
+
+<!-- Modal -->
+<div id="imageModal" class="modal" onclick="closeModal()">
+  <img id="modalImg">
+</div>
 
 
     <a href="arsiv.html" class="back-link">← Etkinliklere geri dön</a>
@@ -109,6 +133,20 @@ Fatih-İstanbul</p>
     navbar.classList.toggle('active');
   });
 </script>
+  <script>
+function openModal(img) {
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImg");
+
+  modal.style.display = "flex";
+  modalImg.src = img.src;
+}
+
+function closeModal() {
+  document.getElementById("imageModal").style.display = "none";
+}
+</script>
+
 </body>
 
 </html>
